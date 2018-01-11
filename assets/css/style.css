@@ -1,5 +1,5 @@
 body {
-	background-image: url("https://drive.google.com/open?id=1AGKL1N4ANyfBJmGUsYVKEaPSlGgtFi51");
+	background-image: url("https://github.com/Trantastic/Basic-Portfolio/blob/master/assets/images/grey_wash_wall_%402X.png?raw=t");
 	background-repeat: repeat;
 }
 
@@ -8,7 +8,6 @@ header {
 	border-bottom: 2px solid #cccccc;
 	height: 99px;
 	background-color: #ffffff;
-
 }
 
 h1 {
@@ -41,16 +40,18 @@ a:link, a:visited, a:hover {
 
 .aboutMe {
 	width: 960px;
+/*	min-height: calc(100vh - 70px);*/
+	display: inline;
 }
 
 .bio {
 	width: 650px;
-	position: fixed;
-	left: 15%;
 	border: 1px solid #cccccc;
 	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 215px;
 	background-color: #ffffff;
-
+	float: left;
 }
 
 .bio h2 {
@@ -64,8 +65,12 @@ a:link, a:visited, a:hover {
 
 }
 
+.bio img {
+	float: left;
+}
+
 .bio p {
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 150%;
 }
 
@@ -82,9 +87,9 @@ a:link, a:visited, a:hover {
 	width: 270px;
 	border: 1px solid #cccccc;
 	text-align: center;
-	position: fixed;
-	right: 11%;
+	float: left;
 	margin-top: 50px;
+	margin-left: 150px;
 	padding-bottom: 25px;
 	background-color: #ffffff;
 }
@@ -99,5 +104,17 @@ a:link, a:visited, a:hover {
 
 .sidebar ul {
 	display: inline;
+}
 
+footer {
+	clear: both;
+	background-color: #6b6b6b;
+	text-align: center;
+}
+
+footer p {
+	border-top: 6px solid #4aaaa5;
+	padding: 25px;
+	height: 50px;
+	font-size: 10px;
 }
