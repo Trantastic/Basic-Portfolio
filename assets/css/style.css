@@ -52,12 +52,12 @@ a:link, a:visited, a:hover, form {
 	color: #999999;
 }
 
-.aboutMe, .contactForm {
+.aboutMe, .contactForm, .portfolio {
 	width: 960px;
 	display: inline;
 }
 
-.bio, .form {
+.bio, .form, .portfolio {
 	width: 650px;
 	border: 1px solid #cccccc;
 	margin-top: 50px;
@@ -67,7 +67,7 @@ a:link, a:visited, a:hover, form {
 	float: left;
 }
 
-.bio h2, .contactForm h2 {
+.bio h2, .contactForm h2, .portfolio .margins {
 	font-size: 40px;
 	color: #4aaaa5;
 	margin-top: 25px;
@@ -86,9 +86,17 @@ a:link, a:visited, a:hover, form {
 	line-height: 150%;
 }
 
-.margins, form {
+.margins, form{
 	margin-left: 25px;
 	margin-right: 25px;
+}
+
+.portfolio img {
+	margin-bottom: 50px;
+	margin-left: 50px;
+	border: 1px solid #cccccc;
+	position: relative;
+	z-index: 0
 }
 
 .bottom, form {
@@ -99,6 +107,7 @@ input[type="text"] {
 	height: 30px;
 	width: 99%;
 	margin-bottom: 10px;
+	color: #cccccc;
 }
 
 input[value="Submit"] {
@@ -108,6 +117,57 @@ input[value="Submit"] {
 	border: 1px solid #4aaaa5;
 	padding: 10px 30px 10px 30px;
 	margin-top: 10px;
+}
+
+/*dice, dog, fireplace, puzzle, hiking below are stytles for portfolio images*/
+#dice {
+	position: absolute;
+	bottom: 370px;
+	left: 267px;
+	z-index: 1;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 20px 53px 20px 54px;
+}
+
+#dog {
+	position: absolute;
+	bottom: 370px;
+	right: 617px;
+	z-index: 1;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 20px 50px 20px 50px;
+}
+
+#fireplace {
+	position: absolute;
+	bottom: 115px;
+	left: 267px;
+	z-index: 1;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 20px 70px 20px 82px;
+}
+
+#puzzle {
+	position: absolute;
+	bottom: 115px;
+	right: 617px;
+	z-index: 1;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 20px 82px 20px 78px;
+}
+
+#hiking {
+	position: absolute;
+	bottom: -140px;
+	left: 267px;
+	z-index: 1;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 20px 85px 20px 84px;	
 }
 
 .sidebar {
